@@ -6,20 +6,13 @@
 </head>
 <body>
     <script>
-        let mijnVoornaam = "Oliver";
-    </script>
-    <script>
-        alert("Oliver");
-    </script>
+        let prijsProduct = 1234;
+        let zomerKorting = 15; //percentages
+        let ledenKorting = 10; //percentages
+        let totaalPrijs = prijsProduct - (prijsProduct * ledenKorting /100) - (prijsProduct * zomerKorting/100);
     
-    <script>
-    let haha = 499; // 399 + 100
-    let zomerKorting = 15; //percentages
-    let ledenKorting = 10; //percentages
-    let totaalPrijs = prijsProduct - (prijsProduct * ledenKorting /100) - (prijsProduct * zomerKorting/100);
-
-    alert(totaalPrijs); // 374.25
-
+        alert(totaalPrijs); // 229.25
+    
     </script>
 </body>
 </html>
